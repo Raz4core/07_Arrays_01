@@ -18,12 +18,25 @@
 
 //02a Theorie: Schleifen
 
-for (let i = 0; i< 4; i++) 
+
+// Inkrement (untere Grenze --> obere Grenze)
+// for (let i = 10; i<= 20; i++) 
+// { 
+//     output("Index i: " + i);  
+// }
+
+// Dekrement (obere Grenze --> untere Grenze)
+
+// for (let i = 10; i> 0; i--) 
+// { 
+//     output("Index i: " + i);  
+// }
+
+// Inkrement (var. schrittweise)
+for (let i = 0; i<=100 ; i+=10) 
 { 
-    output("hi");  
+    output("Index i: " + i);  
 }
-
-
 
 
 /*** 01. Funktionalität mit Einzelparametern */
